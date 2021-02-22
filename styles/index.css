@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-.melody { background-image: url("./img/melody.png"); }
-.cin { background-image: url("./img/cin.png"); }
-.ov { background-image: url("./img/ov.png"); }
-.stars { background-image: url("./img/stars.png"); }
+.melody { background-image: url("../img/melody.png"); }
+.cin { background-image: url("../img/cin.png"); }
+.ov { background-image: url("../img/ov.png"); }
+.stars { background-image: url("../img/stars.png"); }
 
 .osn-bg {
     background: linear-gradient(120.28deg, #76B5D2 1.84%, #DC939E 78.31%);
@@ -163,7 +163,7 @@ header h1 {
     width: 24px;
     height: 17px;
 
-    background-image: url("./img/unny.png");
+    background-image: url("../img/unny.png");
     background-size: cover;
     background-position: center;
 
