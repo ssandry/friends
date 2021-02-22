@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.melody { background-image: url("./img/melody.png"); }
+.cin { background-image: url("./img/cin.png"); }
+.ov { background-image: url("./img/ov.png"); }
+.stars { background-image: url("./img/stars.png"); }
+
+.osn-bg {
+    background: linear-gradient(120.28deg, #76B5D2 1.84%, #DC939E 78.31%);
+}
+
+.melody-bg {
+    background: #EACDCF;
+}
+
+.cin-bg {
+    background: #8DCCE9;
+}
+
+.ov-bg {
+    background: #F4ABB6;
+}
+
+.stars-bg {
+    background: #FBE0E0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.bg {
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+}
+
+header {
+    height: 243px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: "Poppins", Arial;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+
+    color: #FFFFFF;
+}
+
+.wrap {
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 776px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    height: 277px;
+    max-height: 277px;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.8;
+
+    transition-duration: .15s;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card-img {
+    height: 238px;
+    width: 100%;
+    background-color: #F4ABB6;
+    background-size: cover;
+
+    border-radius: 18px;
+}
+
+.card .text {
+    font-family: "Poppins", Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+    height: 100%;
+
+    padding-top: 8px;
+
+    box-sizing: border-box;
+}
+
+.about {
+    width: 773px;
+    display: grid;
+    grid-template-columns: 261px 460px;
+    gap: 50px;
+}
+
+.ab-img {
+    height: 261px;
+    width: 261px;
+
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.about h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #FFFFFF;
+}
+
+.about p {
+    font-family: Poppins, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.backy {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.backy .undo {
+    width: 24px;
+    height: 17px;
+
+    background-image: url("./img/unny.png");
+    background-size: cover;
+    background-position: center;
+
+    display: block;
+    cursor: pointer;
+
+    opacity: 0.8;
+
+    transition-delay: .15s;
+    transition-duration: .5s;
+}
+
+.backy .undo:hover {
+    opacity: 1;
+}

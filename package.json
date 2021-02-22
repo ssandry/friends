@@ -1,0 +1,25 @@
+{
+  "name": "friends",
+  "version": "1.0.0",
+  "description": "Hello Kitty Friends",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ friends --platform=win32 x64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssandry/friends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssandry/friends/issues"
+  },
+  "homepage": "https://github.com/ssandry/friends#readme",
+  "dependencies": {
+    "electron": "^11.3.0",
+    "electron-packager": "^15.2.0"
+  }
+}
